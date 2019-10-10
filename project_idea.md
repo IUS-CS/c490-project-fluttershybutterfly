@@ -44,7 +44,7 @@ For the start screen we have a listener on the start button that when clicked, c
 ![character select screen](/images/character_select_screen.png)
 For the character select screen we have a key listener for whenever the user presses a key, which is handled by keyListener. The xml file will be referred to as select.xml. Again, any size should look fine, 600dp and 800dp included. It will be a ConstraintLayout as the view will contain multiple images, with the arrow being removed and added with each key press.
 
- ![you_choose_bow-wow](/images/you_choose_bow-wow.png)
+![you_choose_bow-wow](/images/you_choose_bow-wow.png)
 For the player screen we have a key listener for whenever the user presses a key, which is handled by keyListener. The xml file will be referred to as select.xml. Second verse, same as the first for the minimum dp sizes. This one will also be a ConstraintLayout as the view will contain multiple images, some of which move around, are removed, or are added to the screen. After the game is finished, a picture will be displayed over the current screen showcasing the user’s saved high scores.
 If I do decide to add a separate leaderboard/cloud-based high score screen, then that view will be a LinearLayout since it mainly contains a list of data.
 
