@@ -38,7 +38,7 @@ In this section, you must utilize the MVC Design Pattern to describe each of the
 2.	This approach has three sections, a View section, a Model section, and a Controller section. In the View section provide a description of each screen appearing in your app, in the Model section provide a description of all Java classes used in the model, in the Controller section provide a description of all controllers required by your app
  
 #**3.1 View Descriptions**
- ![landscape mode](/images/splash_by_olivia_stinston_horizontal_format_mockup.png)
+![landscape mode](/images/splash_by_olivia_stinston_horizontal_format_mockup.png)
 For the start screen we have a listener on the start button that when clicked, calls the onClick method. The xml file will be referred to as start.xml. As with all of my screens, I believe any size screen should look fine (although they may have some difficulty on their smart watch), so standard sizes like 600dp and 800dp is fine and will be supported. It will be a ConstraintLayout as will most of, if not all of the screens will be as the view will contain an image and a button.
 
 ![character select screen](/images/character_select_screen.png)
