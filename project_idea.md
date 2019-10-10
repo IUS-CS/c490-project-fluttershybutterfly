@@ -7,7 +7,7 @@ If you do need a mobile app though, here’s streets of rage, another old, yet c
 #**Section 2 - Meeting Minimum Requirements**
 I have 3 screens for this app, the start screen, the character select screen (which is basically the player screen but with all the characters present), and the player screen where the action happens. The character select and player screen are square ratio, so they will be the same in landscape or portrait view and the start screen will be cropped accommodate the screen size (as visibility is a non-issue on this screen). I will use the concepts from the book implementations in order to keep score, character, and other elements from disappearing whenever the user switches screens or rotates the device. Below is both start screens, the character select screen, and player screen, respectively.
 
-![portrait mode](/images/splash_by_olivia_stinston_vertical_format_mockup.png)
+![portrait mode](https://github.com/IUS-CS/c490-project-fluttershybutterfly/blob/master/images/splash_by_olivia_stinston_vertical_format_mockup.png)
 portrait mode
 ![landscape mode](/images/splash_by_olivia_stinston_horizontal_format_mockup.png)
 landscape mode
