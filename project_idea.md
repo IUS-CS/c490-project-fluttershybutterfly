@@ -45,7 +45,6 @@ In this section, you must utilize the MVC Design Pattern to describe each of the
 2.	This approach has three sections, a View section, a Model section, and a Controller section. In the View section provide a description of each screen appearing in your app, in the Model section provide a description of all Java classes used in the model, in the Controller section provide a description of all controllers required by your app
 
 
-
 #**3.1 View Descriptions**
 
 ![landscape mode](https://github.com/IUS-CS/c490-project-fluttershybutterfly/blob/master/images/splash_by_olivia_stinston_horizontal_format_mockup.png)
