@@ -8,12 +8,19 @@ If you do need a mobile app though, here’s streets of rage, another old, yet c
 I have 3 screens for this app, the start screen, the character select screen (which is basically the player screen but with all the characters present), and the player screen where the action happens. The character select and player screen are square ratio, so they will be the same in landscape or portrait view and the start screen will be cropped accommodate the screen size (as visibility is a non-issue on this screen). I will use the concepts from the book implementations in order to keep score, character, and other elements from disappearing whenever the user switches screens or rotates the device. Below is both start screens, the character select screen, and player screen, respectively.
 
 ![portrait mode](https://github.com/IUS-CS/c490-project-fluttershybutterfly/blob/master/images/splash_by_olivia_stinston_vertical_format_mockup.png)
+
 portrait mode
-![landscape mode](/images/splash_by_olivia_stinston_horizontal_format_mockup.png)
+
+![landscape mode](https://github.com/IUS-CS/c490-project-fluttershybutterfly/blob/master/images/splash_by_olivia_stinston_horizontal_format_mockup.png)
+
 landscape mode
-![character select screen](/images/character_select_screen.png)
+
+![character select screen](https://github.com/IUS-CS/c490-project-fluttershybutterfly/blob/master/images/character_select_screen.png)
+
 character select screen
-![player screen](/images/you_chose_bow-wow.png) 
+
+![player screen](https://github.com/IUS-CS/c490-project-fluttershybutterfly/blob/master/images/you_chose_bow-wow.png)
+
 player screen
 
 The user’s current score will be kept on the device. I may also implement cloud data storage for things such as high scores saves and leaderboards, but only if the requirements above are not met or it would be simple or easier to implement. The data will be stored using a simple variable that increases over time inside the user’s device, in other words, each time the player does something to increase their score, a call to a function will be made and the score will be updated. An SQL database in the cloud may also be required for implementation of high scores/leaderboards. The point at which the user’s score data may be stored/changed is during runtime of the app, onResume(), as well as at the end of the game for high scores and leaderboards, onStop(). The data will be retrieved by simply looking at the information stored on the device (or having an SQL data base call function to the cloud if it is high scores and leaderboards we are looking up) at the start of the app, onCreate(), or if the user has restarted the app, on onRestart(), as well as the end if, again, high scores and leaderboards are implemented, which would be at onStop() again. The app will use wi-fi to communicate to with the internet in order to retrieve high scores or save them or the user’s position on the leaderboard from some… server to be set up by me I suppose. I am also considering implementing a vs. mode where two devices will both communicate to the internet via wi-fi in real time.
