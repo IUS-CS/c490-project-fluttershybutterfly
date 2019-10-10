@@ -1,10 +1,12 @@
-#**Section 1 – Motivation for Your App**
+**#Section 1 – Motivation for Your App**
+
 My motivation for this app is to create a mobile mockup of an indie game title that i have been working on in various class projects over the years. the target user base is all ages, since anyone can pick it up and play. My app is comparable to various arcade games of the 90’s, with less raging streets, trash cans, and way more cute things. While not really a mobile app (unless you count the switch in handheld mode), I believe that river city girls best resembles the type of title I wish to work on.
 steam version: https://store.steampowered.com/app/1049320/River_City_Girls/
 
 If you do need a mobile app though, here’s streets of rage, another old, yet classic beat-em-up: https://apps.apple.com/us/app/streets-of-rage-classic/id320540355
 
-#**Section 2 - Meeting Minimum Requirements**
+**Section 2 - Meeting Minimum Requirements**
+
 I have 3 screens for this app, the start screen, the character select screen (which is basically the player screen but with all the characters present), and the player screen where the action happens. The character select and player screen are square ratio, so they will be the same in landscape or portrait view and the start screen will be cropped accommodate the screen size (as visibility is a non-issue on this screen). I will use the concepts from the book implementations in order to keep score, character, and other elements from disappearing whenever the user switches screens or rotates the device. Below is both start screens, the character select screen, and player screen, respectively.
 
 ![portrait mode](https://github.com/IUS-CS/c490-project-fluttershybutterfly/blob/master/images/splash_by_olivia_stinston_vertical_format_mockup.png)
