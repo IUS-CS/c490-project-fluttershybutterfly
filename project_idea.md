@@ -31,7 +31,7 @@ The user’s current score will be kept on the device. I may also implement clou
 3.	Data entered in by the user during one use must be present when the app is restarted for another use
 
 #**2.3 Communication**
-•	Your app must demonstrate that it communicates with the outside world, with either another device or an external resource
+Your app must demonstrate that it communicates with the outside world, with either another device or an external resource
 Section 3 – MVC Breakdown of Your App
 In this section, you must utilize the MVC Design Pattern to describe each of the screens supported by your app. There are a couple of ways you might go about organizing this section of your document:
 1.	This approach uses one design document section per screen – i.e., provide View, Model, and Controller descriptions about each screen, one screen’s MVC set of descriptions after another
