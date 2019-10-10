@@ -45,13 +45,13 @@ In this section, you must utilize the MVC Design Pattern to describe each of the
 2.	This approach has three sections, a View section, a Model section, and a Controller section. In the View section provide a description of each screen appearing in your app, in the Model section provide a description of all Java classes used in the model, in the Controller section provide a description of all controllers required by your app.
  
 #**3.1 View Descriptions**
-![landscape mode](/images/splash_by_olivia_stinston_horizontal_format_mockup.png)
+![landscape mode](https://github.com/IUS-CS/c490-project-fluttershybutterfly/blob/master/images/splash_by_olivia_stinston_horizontal_format_mockup.png)
 For the start screen we have a listener on the start button that when clicked, calls the onClick method. The xml file will be referred to as start.xml. As with all of my screens, I believe any size screen should look fine (although they may have some difficulty on their smart watch), so standard sizes like 600dp and 800dp is fine and will be supported. It will be a ConstraintLayout as will most of, if not all of the screens will be as the view will contain an image and a button.
 
-![character select screen](/images/character_select_screen.png)
+![character select screen](https://github.com/IUS-CS/c490-project-fluttershybutterfly/blob/master/images/character_select_screen.png)
 For the character select screen we have a key listener for whenever the user presses a key, which is handled by keyListener. The xml file will be referred to as select.xml. Again, any size should look fine, 600dp and 800dp included. It will be a ConstraintLayout as the view will contain multiple images, with the arrow being removed and added with each key press.
 
-![you_choose_bow-wow](/images/you_choose_bow-wow.png)
+![player screen](https://github.com/IUS-CS/c490-project-fluttershybutterfly/blob/master/images/you_choose_bow-wow.png)
 For the player screen we have a key listener for whenever the user presses a key, which is handled by keyListener. The xml file will be referred to as select.xml. Second verse, same as the first for the minimum dp sizes. This one will also be a ConstraintLayout as the view will contain multiple images, some of which move around, are removed, or are added to the screen. After the game is finished, a picture will be displayed over the current screen showcasing the user’s saved high scores.
 If I do decide to add a separate leaderboard/cloud-based high score screen, then that view will be a LinearLayout since it mainly contains a list of data.
 
