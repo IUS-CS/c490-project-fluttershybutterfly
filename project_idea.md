@@ -19,7 +19,7 @@ landscape mode
 
 character select screen
 
-![player screen](https://github.com/IUS-CS/c490-project-fluttershybutterfly/blob/master/images/you_chose_bow-wow.png)
+![player screen](https://github.com/IUS-CS/c490-project-fluttershybutterfly/blob/master/images/you_choose_bow-wow.png)
 
 player screen
 
