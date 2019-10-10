@@ -35,7 +35,7 @@ Your app must demonstrate that it communicates with the outside world, with eith
 Section 3 – MVC Breakdown of Your App
 In this section, you must utilize the MVC Design Pattern to describe each of the screens supported by your app. There are a couple of ways you might go about organizing this section of your document:
 1.	This approach uses one design document section per screen – i.e., provide View, Model, and Controller descriptions about each screen, one screen’s MVC set of descriptions after another
-2.	This approach has three sections, a View section, a Model section, and a Controller section. In the View section provide a description of each screen appearing in your app, in the Model section provide a description of all Java classes used in the model, in the Controller section provide a description of all controllers required by your app
+2.	This approach has three sections, a View section, a Model section, and a Controller section. In the View section provide a description of each screen appearing in your app, in the Model section provide a description of all Java classes used in the model, in the Controller section provide a description of all controllers required by your app.
  
 #**3.1 View Descriptions**
 ![landscape mode](/images/splash_by_olivia_stinston_horizontal_format_mockup.png)
