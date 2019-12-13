@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFCCCB">
+
+    <ImageView
+        android:id="@+id/character_room"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFCCCB"
+        android:src="@drawable/empty_room"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/computer_a"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="450dp"
+        android:layout_marginLeft="450dp"
+        android:layout_marginTop="200dp"
+        app:srcCompat="@drawable/computer_a"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:onClick="playSmack" />
+
+    <ImageView
+        android:id="@+id/flower_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/flower_a"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:layout_marginStart="300dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="300dp"
+        android:onClick="playSmack" />
+
+    <ImageView
+        app:layout_constraintBottom_toBottomOf="@+id/character_room"
+        app:layout_constraintEnd_toEndOf="@+id/character_room"
+        app:layout_constraintStart_toStartOf="@+id/character_room"
+        app:layout_constraintTop_toTopOf="@+id/character_room"
+
+        android:id="@+id/bowWow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bfront"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="100dp" />
+
+    <!--        android:layout_gravity="center"
+        android:layout_marginEnd="480dp"
+        android:layout_marginRight="480dp"
+        android:layout_marginBottom="230dp"
+        android:gravity="center"
+
+        app:layout_constraintBottom_toBottomOf="@+id/room"
+        app:layout_constraintEnd_toEndOf="@+id/room"
+        app:layout_constraintStart_toStartOf="@+id/room"
+        app:layout_constraintTop_toTopOf="@+id/room" -->
+
+    <ImageView
+        android:id="@+id/eunice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="250dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="110dp"
+        android:scaleX="2"
+        android:scaleY="2"
+        app:srcCompat="@drawable/euniceidle" />
+
+    <ImageView
+        android:id="@+id/tank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/tfront"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:layout_marginStart="250dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="200dp" />
+
+    <ImageView
+        android:id="@+id/kat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/kfront"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="200dp" />
+
+    <ImageView
+        android:id="@+id/character_selected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="200dp"
+        android:layout_marginLeft="200dp"
+        android:layout_centerVertical="true"
+
+        android:scaleX="2"
+        android:scaleY="2"
+        app:srcCompat="@drawable/spritesheet01_by_olivia_stinston"
+        android:visibility="invisible" />
+<!--    android:layout_centerInParent="true"
+        for horizontal centering. ^^
+-->
+
+    <TextView
+
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:gravity="center|top"
+        android:textSize="45sp"
+        android:paddingRight="150dp"
+        android:paddingStart="150dp"
+        android:paddingEnd="150dp"
+        android:text="@string/score"
+        android:textColor="#33b5e5"
+        android:textStyle="bold" />
+</RelativeLayout>
